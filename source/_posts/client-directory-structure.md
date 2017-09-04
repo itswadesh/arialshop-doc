@@ -76,7 +76,6 @@ date: 2017-08-20 06:40:12
 |   |   |   \---wishlist
 |   |   |           index.vue
 |   |   |           
-|   |   +---auth
 |   |   |       
 |   |   \---_slug
 |   |           _id.vue
