@@ -3,20 +3,20 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Server Settings | ArialShop Documentation</title>
+  <title>Server Settings | ArialShop Documentation - Vue2.0 + Node + Mongo + PWA</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="ArialShop - Vue2.0 + Node + MongoPath: server/config.ts Website SettingsemailEnabled = true;  Review SettingsreviewSettings = {   enabled: true, // Enables review for products   moderate: false // If">
+  <meta name="description" content="Path: server/config.ts  Website SettingsemailEnabled = true;  Review SettingsreviewSettings = {   enabled: true, // Enables review for products   moderate: false // If enabled, the review will be visi">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Server Settings">
-<meta property="og:url" content="http://codenx.com/server-settings/index.html">
-<meta property="og:site_name" content="ArialShop Documentation">
-<meta property="og:description" content="ArialShop - Vue2.0 + Node + MongoPath: server/config.ts Website SettingsemailEnabled = true;  Review SettingsreviewSettings = {   enabled: true, // Enables review for products   moderate: false // If">
-<meta property="og:updated_time" content="2017-09-04T04:53:27.972Z">
+<meta property="og:url" content="https://itswadesh.github.io/arialshop-doc/server-settings/index.html">
+<meta property="og:site_name" content="ArialShop Documentation - Vue2.0 + Node + Mongo + PWA">
+<meta property="og:description" content="Path: server/config.ts  Website SettingsemailEnabled = true;  Review SettingsreviewSettings = {   enabled: true, // Enables review for products   moderate: false // If enabled, the review will be visi">
+<meta property="og:updated_time" content="2017-09-04T06:02:16.222Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Server Settings">
-<meta name="twitter:description" content="ArialShop - Vue2.0 + Node + MongoPath: server/config.ts Website SettingsemailEnabled = true;  Review SettingsreviewSettings = {   enabled: true, // Enables review for products   moderate: false // If">
+<meta name="twitter:description" content="Path: server/config.ts  Website SettingsemailEnabled = true;  Review SettingsreviewSettings = {   enabled: true, // Enables review for products   moderate: false // If enabled, the review will be visi">
   
-    <link rel="alternate" href="/atom.xml" title="ArialShop Documentation" type="application/atom+xml">
+    <link rel="alternate" href="/atom.xml" title="ArialShop Documentation - Vue2.0 + Node + Mongo + PWA" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
@@ -39,7 +39,7 @@
     <div id="header-title" class="inner">
       <h1 id="logo-wrap">
         <a href="/" id="logo">
-          ArialShop Documentation
+          ArialShop Documentation - Vue2.0 + Node + Mongo + PWA
         </a>
       </h1>
       <!--  -->
@@ -59,12 +59,12 @@
       </nav>
       <nav id="sub-nav">
         
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="Flux RSS"></a>
           
-            <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+            <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
       </nav>
       <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://codenx.com"></form>
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://itswadesh.github.io/arialshop-doc"></form>
       </div>
     </div> -->
   </div>
@@ -93,7 +93,8 @@
         
           <div class="article-entry" itemprop="articleBody">
             
-                      <h1 id="ArialShop-Vue2-0-Node-Mongo"><a href="#ArialShop-Vue2-0-Node-Mongo" class="headerlink" title="ArialShop - Vue2.0 + Node + Mongo"></a>ArialShop - Vue2.0 + Node + Mongo</h1><p></p><p>Path: <em>server/config.ts</em></p><p></p>
+                      <p>Path: <em>server/config.ts</em></p>
+
 <h3 id="Website-Settings"><a href="#Website-Settings" class="headerlink" title="Website Settings"></a>Website Settings</h3><pre><code class="bash">emailEnabled = <span class="literal">true</span>;
 </code></pre>
 <h3 id="Review-Settings"><a href="#Review-Settings" class="headerlink" title="Review Settings"></a>Review Settings</h3><pre><code class="bash">reviewSettings = {
@@ -105,7 +106,6 @@
 </code></pre>
 <h3 id="User-Roles"><a href="#User-Roles" class="headerlink" title="User Roles"></a>User Roles</h3><pre><code class="bash">userRoles = [<span class="string">'user'</span>, <span class="string">'vendor'</span>, <span class="string">'manager'</span>, <span class="string">'admin'</span>]; // This should be <span class="keyword">in</span> ascending order of authority. e.g. In this <span class="keyword">case</span> guest will not have access to any other role, <span class="built_in">where</span> as admin will have the role of guest+user+vendor+manager+admin
 </code></pre>
-<p>  <br><br>  <br><br>  <br><br>  <br><br>  <br><br>  <br></p>
 <h3 id="Forgot-Password-Email-Settings"><a href="#Forgot-Password-Email-Settings" class="headerlink" title="Forgot Password Email Settings"></a>Forgot Password Email Settings</h3><pre><code class="bash">forgotPasswordEmail = (body) =&gt; { // Expects email id and password reset token
   <span class="built_in">return</span> {
     from: <span class="string">'passwordreset@codenx.com'</span>,
@@ -118,6 +118,7 @@
   }
 }
 </code></pre>
+<p><br></p>
 <h3 id="Reset-Password-Email-Settings"><a href="#Reset-Password-Email-Settings" class="headerlink" title="Reset Password Email Settings"></a>Reset Password Email Settings</h3><pre><code class="bash">resetPasswordEmail = (body) =&gt; { // Expects email id and name
   <span class="built_in">return</span> {
     from: <span class="string">'passwordreset@codenx.com'</span>,
@@ -128,7 +129,6 @@
   };
 }
 </code></pre>
-<p>   <br><br>  <br><br>  <br><br>  <br><br>  <br><br>  <br><br>  <br></p>
 <h3 id="Order-Placed-Email-Settings"><a href="#Order-Placed-Email-Settings" class="headerlink" title="Order Placed Email Settings"></a>Order Placed Email Settings</h3><pre><code class="bash">orderPlacedEmail = (body) =&gt; { // Expects email id, orderNo, ...
   <span class="built_in">return</span> {
     from: <span class="string">'CodeNx &lt;admin@codenx.com&gt;'</span>,
@@ -146,6 +146,7 @@
   };
 }
 </code></pre>
+<p><br><br>  <br><br>  <br><br>  <br><br>  <br></p>
 <h3 id="Order-Updated-Email-Settings"><a href="#Order-Updated-Email-Settings" class="headerlink" title="Order Updated Email Settings"></a>Order Updated Email Settings</h3><pre><code class="bash">orderUpdatedEmail = (body) =&gt; {
   <span class="built_in">return</span> {
     from: <span class="string">'CodeNx &lt;admin@codenx.com&gt;'</span>,
@@ -168,8 +169,8 @@
                         
           </div>
           <!-- <footer class="article-footer">
-            <a data-url="http://codenx.com/server-settings/" data-id="cj75pmldv0006fgj6mtvnwwrt" class="article-share-link">
-              Share
+            <a data-url="https://itswadesh.github.io/arialshop-doc/server-settings/" data-id="cj75roefx0005i8j6okoplyps" class="article-share-link">
+              Partager
             </a>
             
                 
@@ -180,7 +181,7 @@
 <nav id="article-nav">
   
     <a href="/usage/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
+      <strong class="article-nav-caption">Récent</strong>
       <div class="article-nav-title">
         
           Usage Instructions
@@ -219,12 +220,12 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
+    <h3 class="widget-title">Articles récents</h3>
     <div class="widget">
       <ul>
         
           <li>
-            <a href="/installation-instructions/">Installation Instructions</a>
+            <a href="/installation-instructions/">Installation Instructions (Single page progressive e-commerce app using VueJS)</a>
           </li>
         
           <li>
@@ -258,7 +259,7 @@
       &copy;
       2017
         Swadesh Behera<br>
-          <!-- Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> -->
+          <!-- Propulsé by <a href="http://hexo.io/" target="_blank">Hexo</a> -->
     </div>
   </div>
 </footer>

@@ -3,20 +3,20 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Server Directory Structure | ArialShop Documentation</title>
+  <title>Server Directory Structure | ArialShop Documentation - Vue2.0 + Node + Mongo + PWA</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="ArialShop - Vue2.0 + Node + Mongo1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950+---server|   |   app.ts|   |   config.ts|   |   routes.ts|   |   seed.ts|">
+  <meta name="description" content="123456789101112131415161718192021222324252627282930313233343536373839404142+---server|   |   app.ts|   |   config.ts|   |   routes.ts|   |   seed.ts|   |   tsconfig.json|   |   |   +---api|   |   |">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Server Directory Structure">
-<meta property="og:url" content="http://codenx.com/server-directory-structure/index.html">
-<meta property="og:site_name" content="ArialShop Documentation">
-<meta property="og:description" content="ArialShop - Vue2.0 + Node + Mongo1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950+---server|   |   app.ts|   |   config.ts|   |   routes.ts|   |   seed.ts|">
-<meta property="og:updated_time" content="2017-09-04T04:53:27.972Z">
+<meta property="og:url" content="https://itswadesh.github.io/arialshop-doc/server-directory-structure/index.html">
+<meta property="og:site_name" content="ArialShop Documentation - Vue2.0 + Node + Mongo + PWA">
+<meta property="og:description" content="123456789101112131415161718192021222324252627282930313233343536373839404142+---server|   |   app.ts|   |   config.ts|   |   routes.ts|   |   seed.ts|   |   tsconfig.json|   |   |   +---api|   |   |">
+<meta property="og:updated_time" content="2017-09-04T05:57:13.824Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Server Directory Structure">
-<meta name="twitter:description" content="ArialShop - Vue2.0 + Node + Mongo1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950+---server|   |   app.ts|   |   config.ts|   |   routes.ts|   |   seed.ts|">
+<meta name="twitter:description" content="123456789101112131415161718192021222324252627282930313233343536373839404142+---server|   |   app.ts|   |   config.ts|   |   routes.ts|   |   seed.ts|   |   tsconfig.json|   |   |   +---api|   |   |">
   
-    <link rel="alternate" href="/atom.xml" title="ArialShop Documentation" type="application/atom+xml">
+    <link rel="alternate" href="/atom.xml" title="ArialShop Documentation - Vue2.0 + Node + Mongo + PWA" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
@@ -39,7 +39,7 @@
     <div id="header-title" class="inner">
       <h1 id="logo-wrap">
         <a href="/" id="logo">
-          ArialShop Documentation
+          ArialShop Documentation - Vue2.0 + Node + Mongo + PWA
         </a>
       </h1>
       <!--  -->
@@ -59,12 +59,12 @@
       </nav>
       <nav id="sub-nav">
         
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="Flux RSS"></a>
           
-            <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+            <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
       </nav>
       <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://codenx.com"></form>
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://itswadesh.github.io/arialshop-doc"></form>
       </div>
     </div> -->
   </div>
@@ -93,12 +93,12 @@
         
           <div class="article-entry" itemprop="articleBody">
             
-                      <h1 id="ArialShop-Vue2-0-Node-Mongo"><a href="#ArialShop-Vue2-0-Node-Mongo" class="headerlink" title="ArialShop - Vue2.0 + Node + Mongo"></a>ArialShop - Vue2.0 + Node + Mongo</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div></pre></td><td class="code"><pre><div class="line">+---server</div><div class="line">|   |   app.ts</div><div class="line">|   |   config.ts</div><div class="line">|   |   routes.ts</div><div class="line">|   |   seed.ts</div><div class="line">|   |   tsconfig.json</div><div class="line">|   |   </div><div class="line">|   +---api</div><div class="line">|   |   |   base.ts</div><div class="line">|   |   +---address</div><div class="line">|   |   +---brand</div><div class="line">|   |   +---category</div><div class="line">|   |   +---contact</div><div class="line">|   |   +---coupon</div><div class="line">|   |   +---customer</div><div class="line">|   |   +---feature</div><div class="line">|   |   +---media</div><div class="line">|   |   +---order</div><div class="line">|   |   +---orderHistory</div><div class="line">|   |   +---pay</div><div class="line">|   |   +---payment-method</div><div class="line">|   |   +---product</div><div class="line">|   |   +---review</div><div class="line">|   |   +---sendmail</div><div class="line">|   |   +---shipping</div><div class="line">|   |   +---upload</div><div class="line">|   |   +---user</div><div class="line">|   |   \---wishlist</div><div class="line">|   |           </div><div class="line">|   +---auth</div><div class="line">|   |   |   auth.service.ts</div><div class="line">|   |   |   index.ts</div><div class="line">|   |   |   </div><div class="line">|   |   +---facebook</div><div class="line">|   |   |       index.ts</div><div class="line">|   |   |       passport.ts</div><div class="line">|   |   |       </div><div class="line">|   |   +---google</div><div class="line">|   |   |       index.ts</div><div class="line">|   |   |       passport.ts</div><div class="line">|   |   |       </div><div class="line">|   |   +---<span class="built_in">local</span></div><div class="line">|   |   |       index.ts</div><div class="line">|   |   |       passport.ts</div><div class="line">|   |   |       </div><div class="line">|   |   \---twitter</div><div class="line">|   |           index.ts</div><div class="line">|   |           passport.ts</div><div class="line">|   |           </div><div class="line">|</div></pre></td></tr></table></figure>
+                      <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div></pre></td><td class="code"><pre><div class="line">+---server</div><div class="line">|   |   app.ts</div><div class="line">|   |   config.ts</div><div class="line">|   |   routes.ts</div><div class="line">|   |   seed.ts</div><div class="line">|   |   tsconfig.json</div><div class="line">|   |   </div><div class="line">|   +---api</div><div class="line">|   |   |   base.ts</div><div class="line">|   |   +---address</div><div class="line">|   |   +---brand</div><div class="line">|   |   +---category</div><div class="line">|   |   +---contact</div><div class="line">|   |   +---coupon</div><div class="line">|   |   +---customer</div><div class="line">|   |   +---feature</div><div class="line">|   |   +---media</div><div class="line">|   |   +---order</div><div class="line">|   |   +---orderHistory</div><div class="line">|   |   +---pay</div><div class="line">|   |   +---payment-method</div><div class="line">|   |   +---product</div><div class="line">|   |   +---review</div><div class="line">|   |   +---sendmail</div><div class="line">|   |   +---shipping</div><div class="line">|   |   +---upload</div><div class="line">|   |   +---user</div><div class="line">|   |   \---wishlist</div><div class="line">|   |           </div><div class="line">|   +---auth</div><div class="line">|   |   |   auth.service.ts</div><div class="line">|   |   |   index.ts</div><div class="line">|   |   |   </div><div class="line">|   |   +---facebook</div><div class="line">|   |   |       </div><div class="line">|   |   +---google</div><div class="line">|   |   |       </div><div class="line">|   |   +---<span class="built_in">local</span></div><div class="line">|   |   |       </div><div class="line">|   |   \---twitter</div><div class="line">|   |           </div><div class="line">|</div></pre></td></tr></table></figure>
                         
           </div>
           <!-- <footer class="article-footer">
-            <a data-url="http://codenx.com/server-directory-structure/" data-id="cj75pmldt0002fgj6qlzlpcib" class="article-share-link">
-              Share
+            <a data-url="https://itswadesh.github.io/arialshop-doc/server-directory-structure/" data-id="cj75roefw0003i8j6s5wb8bhl" class="article-share-link">
+              Partager
             </a>
             
                 
@@ -109,7 +109,7 @@
 <nav id="article-nav">
   
     <a href="/client-directory-structure/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
+      <strong class="article-nav-caption">Récent</strong>
       <div class="article-nav-title">
         
           Client Directory Structure
@@ -119,7 +119,7 @@
   
   
     <a href="/usage/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Older</strong>
+      <strong class="article-nav-caption">Ancien</strong>
       <div class="article-nav-title">Usage Instructions</div>
     </a>
   
@@ -153,12 +153,12 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
+    <h3 class="widget-title">Articles récents</h3>
     <div class="widget">
       <ul>
         
           <li>
-            <a href="/installation-instructions/">Installation Instructions</a>
+            <a href="/installation-instructions/">Installation Instructions (Single page progressive e-commerce app using VueJS)</a>
           </li>
         
           <li>
@@ -192,7 +192,7 @@
       &copy;
       2017
         Swadesh Behera<br>
-          <!-- Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> -->
+          <!-- Propulsé by <a href="http://hexo.io/" target="_blank">Hexo</a> -->
     </div>
   </div>
 </footer>
