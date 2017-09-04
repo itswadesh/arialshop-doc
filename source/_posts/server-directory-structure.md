@@ -3,8 +3,6 @@ title: Server Directory Structure
 date: 2017-08-19 06:40:12
 ---
 
-# ArialShop - Vue2.0 + Node + Mongo
-
 ``` bash
 +---server
 |   |   app.ts
@@ -40,20 +38,12 @@ date: 2017-08-19 06:40:12
 |   |   |   index.ts
 |   |   |   
 |   |   +---facebook
-|   |   |       index.ts
-|   |   |       passport.ts
 |   |   |       
 |   |   +---google
-|   |   |       index.ts
-|   |   |       passport.ts
 |   |   |       
 |   |   +---local
-|   |   |       index.ts
-|   |   |       passport.ts
 |   |   |       
 |   |   \---twitter
-|   |           index.ts
-|   |           passport.ts
 |   |           
 |               
 ```

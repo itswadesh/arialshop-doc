@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: ArialShop Documentation
+title: ArialShop Documentation - Vue2.0 + Node + Mongo + PWA
 subtitle:
 description:
 author: Swadesh Behera
@@ -78,7 +78,7 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/itswadesh/ArialShop-documentation.git
+  repo: https://github.com/itswadesh/arialshop-doc.git
   branch: gh-pages
   message: documentation
 

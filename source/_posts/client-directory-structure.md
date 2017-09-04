@@ -3,8 +3,6 @@ title: Client Directory Structure
 date: 2017-08-20 06:40:12
 ---
 
-# ArialShop - Vue2.0 + Node + Mongo
-
 ``` bash
 +---src
 |   |   App.vue
@@ -15,43 +13,8 @@ date: 2017-08-20 06:40:12
 |   |       .gitkeep
 |   |       
 |   +---components
-|   |   |   AddressList.vue
-|   |   |   Alert.vue
-|   |   |   Breadcrumb.vue
-|   |   |   Busy.vue
-|   |   |   Cart.vue
-|   |   |   CartButtons.vue
-|   |   |   Coupon.vue
-|   |   |   CreditCard.vue
-|   |   |   Edit.vue
-|   |   |   Footer.vue
-|   |   |   ImageInput.vue
-|   |   |   List.vue
-|   |   |   ListImage.vue
-|   |   |   Loading.vue
-|   |   |   Logo.vue
-|   |   |   Megamenu.vue
-|   |   |   OauthButtons.vue
-|   |   |   OrderContent.vue
-|   |   |   ProductCard.vue
-|   |   |   ProductFeatures.vue
-|   |   |   ProductKeyFeatures.vue
-|   |   |   ProductList.vue
-|   |   |   ProductVariants.vue
-|   |   |   README.md
-|   |   |   Reviews.vue
-|   |   |   Search.vue
-|   |   |   ShopHeader.vue
-|   |   |   Submit.vue
-|   |   |   Toast.vue
-|   |   |   WishButton.vue
 |   |   |   
 |   |   \---modal
-|   |           CancelOrder.vue
-|   |           Confirm.vue
-|   |           ImageModal.vue
-|   |           LoginModal.vue
-|   |           Review.vue
 |   |           
 |   +---filters
 |   |       index.js
@@ -63,20 +26,8 @@ date: 2017-08-20 06:40:12
 |   |       basic.js
 |   |       
 |   +---pages
-|   |   |   checkout.vue
-|   |   |   index.vue
-|   |   |   NotFound.vue
-|   |   |   README.md
-|   |   |   success.vue
 |   |   |   
 |   |   +---account
-|   |   |       change-password.vue
-|   |   |       forgot.vue
-|   |   |       index.vue
-|   |   |       login.vue
-|   |   |       profile.vue
-|   |   |       reset.vue
-|   |   |       signup.vue
 |   |   |       
 |   |   +---admin
 |   |   |   |   index.vue
@@ -126,8 +77,6 @@ date: 2017-08-20 06:40:12
 |   |   |           index.vue
 |   |   |           
 |   |   +---auth
-|   |   |       forgot.vue
-|   |   |       signup.vue
 |   |   |       
 |   |   \---_slug
 |   |           _id.vue
@@ -136,10 +85,6 @@ date: 2017-08-20 06:40:12
 |   |       index.js
 |   |       
 |   \---store
-|           cart.js
-|           crud.js
-|           index.js
-|           user.js
 |           
 \---static
     |   manifest.json
@@ -148,5 +93,3 @@ date: 2017-08-20 06:40:12
     \---uploads
         \---thumb
 ```
-<br/>
-  <br/>

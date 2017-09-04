@@ -3,8 +3,6 @@ title: Environment Settings
 date: 2017-08-22 06:40:12
 ---
 
-# ArialShop - Vue2.0 + Node + Mongo
-
   Change `.env` file according to your credentials
   Generate the following APIs and input the credentials into .env file present at the root of the project
 
@@ -40,4 +38,5 @@ TWITTER_SECRET=YOUR_TWITTER_SECRET
 GOOGLE_ID=YOUR_GOOGLE_ID
 GOOGLE_SECRET=YOUR_GOOGLE_SECRET
 GOOGLE_MAPS_API=YOUR_GOOGLE_MAPS_API
-  ``` 
+``` 
+<br/>

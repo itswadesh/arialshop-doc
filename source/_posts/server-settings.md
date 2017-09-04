@@ -3,34 +3,33 @@ title: Server Settings
 date: 2017-07-23 06:40:12
 ---
 
-# ArialShop - Vue2.0 + Node + Mongo
-
 <p>Path: <em>server/config.ts</em></p>
+
 ### Website Settings
+
 ``` bash
 emailEnabled = true;
-  ```  
+```  
+
 ### Review Settings
+
 ``` bash
 reviewSettings = {
   enabled: true, // Enables review for products
   moderate: false // If enabled, the review will be visible to public after admin approval
 };
-  ``` 
+``` 
 ### Product Settings
+
 ``` bash
   product = { moderate: false };
-  ``` 
+``` 
 ### User Roles
+
 ``` bash
   userRoles = ['user', 'vendor', 'manager', 'admin']; // This should be in ascending order of authority. e.g. In this case guest will not have access to any other role, where as admin will have the role of guest+user+vendor+manager+admin
-  ``` 
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
+``` 
+
 ### Forgot Password Email Settings
 ``` bash
 forgotPasswordEmail = (body) => { // Expects email id and password reset token
@@ -44,7 +43,10 @@ forgotPasswordEmail = (body) => { // Expects email id and password reset token
     'If you did not request this, please ignore this email and your password will remain unchanged.\n'
   }
 }
-  ``` 
+``` 
+
+<br/>
+
 ### Reset Password Email Settings
 ``` bash
 resetPasswordEmail = (body) => { // Expects email id and name
@@ -56,15 +58,10 @@ resetPasswordEmail = (body) => { // Expects email id and name
     'This is a confirmation that the password for your account ' + body.to + ' has just been changed.\n'
   };
 }
-  ``` 
-   <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
+``` 
+
 ### Order Placed Email Settings
+
 ``` bash
 orderPlacedEmail = (body) => { // Expects email id, orderNo, ...
   return {
@@ -82,8 +79,16 @@ orderPlacedEmail = (body) => { // Expects email id, orderNo, ...
     + '\n Zip: ' + body.address.postal_code
   };
 }
-  ``` 
+``` 
+
+<br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  
 ### Order Updated Email Settings
+
 ``` bash
 orderUpdatedEmail = (body) => {
   return {
@@ -102,4 +107,4 @@ orderUpdatedEmail = (body) => {
     + '\n Zip: ' + body.address.postal_code
   };
 }
-  ``` 
+``` 

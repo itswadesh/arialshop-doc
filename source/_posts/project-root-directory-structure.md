@@ -3,8 +3,6 @@ title: Project Root Directory Structure
 date: 2017-08-21 06:40:12
 ---
 
-# ArialShop - Vue2.0 + Node + Mongo
-
 ``` bash
 |   .babelrc
 |   .dockerignore
@@ -31,8 +29,6 @@ date: 2017-08-21 06:40:12
 +---static
 ```
 <br/>
-  <br/>
-  <br/>
   <br/>
   <br/>
   <br/>

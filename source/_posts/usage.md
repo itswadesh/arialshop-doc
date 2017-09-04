@@ -3,8 +3,6 @@ title: Usage Instructions
 date: 2017-08-18 06:40:12
 ---
 
-# ArialShop - Vue2.0 + Node + Mongo
-
 ## Home
  This is the main page of our VueJS progressive e-commerce app. Here we get
 
@@ -35,6 +33,8 @@ product.
 
 ## Category
  Get the current category name with all products under it<br/> This page also has all the filter and sort options.
+
+<br/>
 
 ## Shopping Cart
 This store is featured with a shopping cart facility which is easy to use and fast.
@@ -68,6 +68,8 @@ and easy. Here the user can store and manage different addresses.
  The user has the facility to view the order history. Administrators can change order status + payment status
 **Users:** All the orders placed by the logged in user is available in this view. 
 **Administrators:**  This view presents all orders placed by users with the option to change order status and shipping
+
+<br/>
 
 ## User Management
 

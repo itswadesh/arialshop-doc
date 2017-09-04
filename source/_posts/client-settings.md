@@ -3,36 +3,35 @@ title: Client Settings
 date: 2017-08-24 06:40:12
 ---
 
-# ArialShop - Vue2.0 + Node + Mongo
-
-### Path: 
-<em>src/config.js</em>
+### Path: `src/config.js`
 
 ### Language Settings
 ```bash
-export const lang = 'en' // Change to 'fr' for french version as demo.
+export const lang = 'en' // Change to 'fr' for french version.
 ```
 The language file is inside the `src/i18n` directory (fr.js)
 
 ### Timeout settings
 ```bash
-export const typingTimeout = 500 // Used for searching e.g. search.vue
-export const loadingTimeout = 200 // Used for showing the loading indicator at each page
+export const typingTimeout = 500 // Used for searching. e.g. search.vue
+export const loadingTimeout = 200 // Used for showing the loading indicator for each page
 ```
 
 ### Clear Cart Settings
 ```bash
 export const clearCart = false // Whether to clear the cart after order is placed. Useful while testing
 ```
+
 ### Enable / Disable demo mode
 
 <p>Restricts users from saving data if enabled</p>
 
-``` bash
+```bash
 export const demo = false
-```  
+```
 
 ### User Roles
+
 ```bash
 export const userRoles = ['user', 'vendor', 'manager', 'admin'] // This should be in ascending order of authority. e.g. In this case guest will not have access to any other role, where as admin will have the role of guest+user+vendor+manager+admin
 ```
@@ -67,9 +66,6 @@ export const currency = {
     exchange_rate: '0.015' // Paypal currency code(USD) / Shop currency (INR) ***  exchange_rate should not be 0 else it will generate divided by 0 error
 }
 ```  
-  <br/>
-  <br/>
-  <br/>
 
 ### Menu for Dashboad and Header
 
@@ -93,11 +89,3 @@ export const menuItems = [
   { name: 'Change Password', url: '/account/change-password', authenticate: 'user', icon: 'lock' },
 ]
 ```  
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
